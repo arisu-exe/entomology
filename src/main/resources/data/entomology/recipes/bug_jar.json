@@ -1,0 +1,19 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    " # ",
+    "X X",
+    "XXX"
+  ],
+  "key" : {
+    "#" : {
+      "tag" : "minecraft:planks"
+    },
+    "X" : {
+      "item" : "minecraft:glass"
+    }
+  },
+  "result" : {
+    "item" : "entomology:bug_jar"
+  }
+}

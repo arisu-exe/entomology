@@ -1,0 +1,9 @@
+{
+  "entity.villager.work_entomologist" : {
+    "category" : "entity",
+    "subtitle" : "subtitles.entity.villager.work_entomologist",
+    "sounds" : [
+      "entomology:entity/villager/work_entomologist"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "entomology:entomology/catch_bug",
+  "display": {
+    "icon": {
+      "item": "entomology:bug_jar"
+    },
+    "title": {
+      "translate": "advancements.entomology.put_firefly_in_bug_jar.title"
+    },
+    "description": {
+      "translate": "advancements.entomology.put_firefly_in_bug_jar.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "entomology:textures/gui/advancements/backgrounds/entomology.png"
+  },
+  "criteria": {
+    "put_firefly_in_bug_jar": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "entomology:bug_jar",
+            "state": {
+              "has_firefly": false
+            }
+          }
+        },
+        "item": {
+          "item": "entomology:bug_net",
+          "nbt" : "{InsectEntity:\"entomology:firefly\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "put_firefly_in_bug_jar"
+    ]
+  ]
+}

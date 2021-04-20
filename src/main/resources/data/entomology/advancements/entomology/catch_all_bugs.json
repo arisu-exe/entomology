@@ -1,0 +1,45 @@
+{
+  "parent": "entomology:entomology/catch_bug",
+  "display": {
+    "icon": {
+      "item": "entomology:bug_net",
+      "nbt" : "{InsectEntity:\"entomology:butterfly\", Data:{VARIANT:2}}"
+    },
+    "title": {
+      "translate": "advancements.entomology.catch_all_bugs.title"
+    },
+    "description": {
+      "translate": "advancements.entomology.catch_all_bugs.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "entomology:textures/gui/advancements/backgrounds/entomology.png"
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "bug_net_used": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "entomology:bug_net",
+            "nbt": "{InsectEntity:\"entomology:butterfly\"}"
+          },
+          {
+            "item": "entomology:bug_net",
+            "nbt": "{InsectEntity:\"entomology:firefly\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bug_net_used"
+    ]
+  ]
+}

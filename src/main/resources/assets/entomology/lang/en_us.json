@@ -1,0 +1,56 @@
+{
+  "advancements.entomology.root.title" : "Fantastic bugs and where to find them",
+  "advancements.entomology.root.description" : "Delve into the world of entomology",
+
+  "advancements.entomology.catch_bug.title" : "They often flutter by",
+  "advancements.entomology.catch_bug.description" : "Catch your first bug",
+
+  "advancements.entomology.catch_all_bugs.title" : "Gotta catch 'em all",
+  "advancements.entomology.catch_all_bugs.description" : "Catch one of every bug",
+
+  "advancements.entomology.catch_all_bug_variants.title" : "Lord of the flies",
+  "advancements.entomology.catch_all_bug_variants.description" : "Catch every bug variant",
+
+  "advancements.entomology.put_firefly_in_bug_jar.title" : "You would not believe your eyes",
+  "advancements.entomology.put_firefly_in_bug_jar.description" : "Place a firefly in a bug jar for light",
+
+
+
+  "block.entomology.terrarium" : "Terrarium",
+  "block.entomology.bug_jar" : "Bug Jar",
+
+
+
+  "item.entomology.entomology_guide" : "Guide to Entomology",
+  "item.entomology.bug_net" : "Bug Net",
+  "item.entomology.bug_net.used" : "Stuffed Bug Net",
+
+
+
+  "itemGroup.bugs" : "Bugs",
+
+
+
+  "entity.entomology.butterfly" : "Butterfly",
+  "entity.entomology.butterfly.black_yellow" : "Zebra Longwing",
+  "entity.entomology.butterfly.blue_black" : "Blue",
+  "entity.entomology.butterfly.red_black" : "Monarch",
+  "entity.entomology.butterfly.white_black" : "Marbled",
+  "entity.entomology.butterfly.black_yellow.habitat" : "The Zebra Longwing Butterfly spends its time around plains and forests.",
+  "entity.entomology.butterfly.blue_black.habitat" : "The Blue Butterfly spends its time around plains and forests.",
+  "entity.entomology.butterfly.red_black.habitat" : "The Monarch Butterfly spends its time around plains and forests.",
+  "entity.entomology.butterfly.white_black.habitat" : "The Marbled Butterfly spends its time around plains and forests.",
+
+  "entity.entomology.firefly" : "Firefly",
+  "entity.entomology.firefly.habitat" : "Fireflies love to light up forests at night. They'll always be in a group. ",
+
+
+
+  "subtitles.entity.villager.work_entomologist" : "Entomologist works",
+
+
+
+  "discovery.toast.title" : "Discovery!",
+
+  "gui.entomology_guide.habitat" : "Habitat"
+}

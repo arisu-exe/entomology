@@ -1,0 +1,22 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [
+    "XXX",
+    "XDX",
+    "###"
+  ],
+  "key" : {
+    "#" : {
+      "tag" : "forge:ingots/iron"
+    },
+    "X" : {
+      "item" : "minecraft:glass"
+    },
+    "D" : {
+      "item" : "minecraft:dirt"
+    }
+  },
+  "result" : {
+    "item" : "entomology:terrarium"
+  }
+}

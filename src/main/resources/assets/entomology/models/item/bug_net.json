@@ -1,0 +1,43 @@
+{
+  "parent" : "minecraft:item/handheld",
+  "textures" : {
+    "layer0" : "entomology:item/bug_net"
+  },
+  "overrides" : [
+    {
+      "predicate" : {
+        "entomology:insect" : 1,
+        "entomology:variant" : 0
+      },
+      "model" : "entomology:item/bug_net_used_butterfly_black_yellow"
+    },
+    {
+      "predicate" : {
+        "entomology:insect" : 1,
+        "entomology:variant" : 1
+      },
+      "model" : "entomology:item/bug_net_used_butterfly_blue_black"
+    },
+    {
+      "predicate" : {
+        "entomology:insect" : 1,
+        "entomology:variant" : 2
+      },
+      "model" : "entomology:item/bug_net_used_butterfly_red_black"
+    },
+    {
+      "predicate" : {
+        "entomology:insect" : 1,
+        "entomology:variant" : 3
+      },
+      "model" : "entomology:item/bug_net_used_butterfly_white_black"
+    },
+
+    {
+      "predicate" : {
+        "entomology:insect" : 2
+      },
+      "model" : "entomology:item/bug_net_used_firefly"
+    }
+  ]
+}

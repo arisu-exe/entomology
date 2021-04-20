@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "minecraft:block/glass",
+		"2": "entomology:block/terrarium_soil",
+		"3": "entomology:block/terrarium_plants",
+		"4": "entomology:block/terrarium_side",
+		"particle": "minecraft:block/glass"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 2, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 14], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11, 2, -6],
+			"to": [11, 5, -2],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 3, 4, 6], "texture": "#3"},
+				"west": {"uv": [0, 3, 4, 6], "texture": "#3"}
+			}
+		},
+		{
+			"from": [9, 2, -4],
+			"to": [13, 5, -4],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 3, 4, 6], "texture": "#3"},
+				"south": {"uv": [0, 3, 4, 6], "texture": "#3"}
+			}
+		},
+		{
+			"from": [14, 2, 3],
+			"to": [14, 3, 5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 2, 1], "texture": "#3"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#3"}
+			}
+		},
+		{
+			"from": [13, 2, 4],
+			"to": [15, 3, 4],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 1], "texture": "#3"},
+				"south": {"uv": [0, 0, 2, 1], "texture": "#3"}
+			}
+		}
+	]
+}

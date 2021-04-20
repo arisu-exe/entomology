@@ -1,0 +1,6 @@
+{
+  "parent" : "minecraft:item/handheld",
+  "textures" : {
+    "layer0" : "entomology:item/bug_net_used_butterfly_blue_black"
+  }
+}

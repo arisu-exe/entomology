@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "entomology:entomology_guide"
+    },
+    "title": {
+      "translate": "advancements.entomology.root.title"
+    },
+    "description": {
+      "translate": "advancements.entomology.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "entomology:textures/gui/advancements/backgrounds/entomology.png"
+  },
+  "criteria": {
+    "bug_net": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "entomology:bug_net"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bug_net"
+    ]
+  ]
+}
