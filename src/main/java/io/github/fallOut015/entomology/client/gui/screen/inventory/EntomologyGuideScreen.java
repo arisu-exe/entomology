@@ -201,7 +201,11 @@ public class EntomologyGuideScreen extends Screen {
             } else {
                 StringBuilder mystery = new StringBuilder();
                 for(int j = 0; j < this.insect.getDisplayName().getString().length(); ++ j) {
-                    mystery.append("?");
+                    if(this.insect.getDisplayName().getString().charAt(j) == ' ') {
+                        mystery.append(' ');
+                    } else {
+                        mystery.append('?');
+                    }
                     // spaces
                 }
                 this.header = new StringTextComponent(mystery.toString());
@@ -223,7 +227,11 @@ public class EntomologyGuideScreen extends Screen {
             } else {
                 StringBuilder mystery = new StringBuilder();
                 for(int j = 0; j < this.insect.getVariantName().getString().length(); ++ j) {
-                    mystery.append("?");
+                    if(this.insect.getVariantName().getString().charAt(j) == ' ') {
+                        mystery.append(' ');
+                    } else {
+                        mystery.append('?');
+                    }
                 }
                 subtext = new StringTextComponent(mystery.toString()).withStyle(TextFormatting.ITALIC);
             }

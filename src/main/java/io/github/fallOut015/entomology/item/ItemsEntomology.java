@@ -15,6 +15,7 @@ public class ItemsEntomology {
 
 
 
+    public static final RegistryObject<Item> ANTHILL = ITEMS.register("anthill", () -> new BlockItem(BlocksEntomology.ANTHILL.get(), new Item.Properties().tab(ItemGroupEntomology.TAB_BUGS)));
     public static final RegistryObject<Item> TERRARIUM = ITEMS.register("terrarium", () -> new BlockItem(BlocksEntomology.TERRARIUM.get(), new Item.Properties().tab(ItemGroupEntomology.TAB_BUGS)));
     public static final RegistryObject<Item> BUG_JAR = ITEMS.register("bug_jar", () -> new BlockItem(BlocksEntomology.BUG_JAR.get(), new Item.Properties().tab(ItemGroupEntomology.TAB_BUGS)));
     public static final RegistryObject<Item> ENTOMOLOGY_GUIDE = ITEMS.register("entomology_guide", () -> new EntomologyGuideItem(new Item.Properties().tab(ItemGroupEntomology.TAB_BUGS).stacksTo(1).rarity(Rarity.UNCOMMON)));

@@ -1,5 +1,6 @@
 package io.github.fallOut015.entomology.common.capabilities;
 
+import io.github.fallOut015.entomology.MainEntomology;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ResourceLocation;
@@ -19,7 +20,7 @@ public class CapabilitiesEntomology {
 
     public static void onAttachCapabilities(final AttachCapabilitiesEvent<Entity> event) {
         if(event.getObject() instanceof PlayerEntity) {
-            event.addCapability(new ResourceLocation("entomology", event.getObject().getUUID().toString()), new InsectTrackerProvider(new InsectTracker()));
+            event.addCapability(new ResourceLocation(MainEntomology.MODID, event.getObject().getUUID().toString()), new InsectTrackerProvider(new InsectTracker()));
         }
     }
 }
