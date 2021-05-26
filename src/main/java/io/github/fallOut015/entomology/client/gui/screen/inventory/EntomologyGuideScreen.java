@@ -2,6 +2,7 @@ package io.github.fallOut015.entomology.client.gui.screen.inventory;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.systems.RenderSystem;
+import io.github.fallOut015.entomology.MainEntomology;
 import io.github.fallOut015.entomology.client.gui.widget.button.ChangeVariantButton;
 import io.github.fallOut015.entomology.common.capabilities.CapabilitiesEntomology;
 import io.github.fallOut015.entomology.entity.EntitiesEntomology;
@@ -36,7 +37,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 @OnlyIn(Dist.CLIENT)
 public class EntomologyGuideScreen extends Screen {
-    public static final ResourceLocation ENTOMOLOGY_GUIDE_LOCATION = new ResourceLocation("entomology", "textures/gui/entomology_guide.png");
+    public static final ResourceLocation ENTOMOLOGY_GUIDE_LOCATION = new ResourceLocation(MainEntomology.MODID, "textures/gui/entomology_guide.png");
     private int currentPage;
     private List<IReorderingProcessor> cachedPageComponents = Collections.emptyList();
     private int cachedPage = -1;
